@@ -18,9 +18,9 @@ for i in range(batas_bawah, batas_atas + 1):
         ips.append(ip)
 
 # Tulis daftar IP ke file
-with open("hasil.txt", "w") as f:
+with open("target.txt", "w") as f:
     for ip in ips:
         f.write(ip + "\n")
 
 # Tampilkan pesan pemberitahuan
-print("Daftar IP berhasil disimpan di hasil.txt")
+print("Daftar IP berhasil disimpan di target.txt")
