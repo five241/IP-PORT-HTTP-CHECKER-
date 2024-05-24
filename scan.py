@@ -29,7 +29,7 @@ def check_ip(ip, port, output_file):
         print(result)
 
 def main():
-    filename = "list_ip.txt"
+    filename = "target.txt"
     output_file = "hasil.txt"
     port = 80
 
